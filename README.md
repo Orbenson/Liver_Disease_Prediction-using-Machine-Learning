@@ -95,7 +95,7 @@ Overall, our project provides valuable insights into the potential of machine le
 # **Kaggle Dataset**
 
 The Liver Patient Dataset used in this project was obtained from Kaggle. You can find the original dataset and more information about it on the following link:
-https://www.kaggle.com/uciml/indian-liver-patient-records
+https://www.kaggle.com/datasets/abhi8923shriv/liver-disease-patient-dataset
 
 # **License**
 
