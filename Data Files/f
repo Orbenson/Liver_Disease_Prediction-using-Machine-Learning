@@ -1,0 +1,29 @@
+About Dataset
+Context
+There's a story behind every dataset and here's your opportunity to share yours.
+(Liver Patient Dataset) Data Set with 20K train data, ~1K Test data
+
+Content
+What's inside is more than just rows and columns. Make it easy for others to get started by describing how you acquired the data and what time period it represents, too.
+This data set contains 10 variables that are age, gender, total Bilirubin, direct Bilirubin, total proteins, albumin, A/G ratio, SGPT, SGOT and Alkphos.
+
+Attribute Information:
+
+Age Age of the patient
+Gender Gender of the patient
+TB Total Bilirubin
+DB Direct Bilirubin
+Alkphos Alkaline Phosphotase
+Sgpt Alamine Aminotransferase
+Sgot Aspartate Aminotransferase
+TP Total Protiens
+ALB Albumin
+A/G Ratio Albumin and Globulin Ratio
+Selector field used to split the data into two sets (labeled by the experts) 1 Liver Patient, 2 Mon Liver Patient
+Acknowledgements
+We wouldn't be here without the help of others. If you owe any attributions or thanks, include them here along with any citations of past research.
+would like to Thank Kaggle dataset community for inspiration.
+
+Inspiration
+Your data will be in front of the world's largest data science community. What questions do you want to see answered?
+lets predict liver patients.
