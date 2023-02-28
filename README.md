@@ -47,7 +47,7 @@ Installation
 * Install the required Python packages by running the following command in the terminal:
 
 # **Copy code**
-* pip install scikit-learn pandas numpy matplotlib
+* pip install scikit-learn pandas numpy matplotlib PySpark 
 
 
 # **Usage**
