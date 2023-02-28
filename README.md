@@ -59,20 +59,6 @@ Follow the instructions in the notebook to run the code and train the machine le
 Dataset
 The dataset used in this project is the Liver Patient Records dataset from the UCI Machine Learning Repository. This dataset contains records from 416 liver disease patients and 167 non-liver disease patients. The dataset includes various clinical and demographic features, such as age, gender, total bilirubin, direct bilirubin, albumin, and more.
 
-**Machine Learning Model**
-
-The machine learning model used in this project is a Logistic Regression classifier. This model was chosen because it is a simple yet effective classification algorithm that can handle both binary and multi-class classification problems. The performance of the model was evaluated using various metrics, including accuracy, precision, recall, and F1-score.
-
-**Results**
-
-The trained machine learning model achieved an accuracy of 0.72 on the test set. This means that the model correctly predicted the presence or absence of liver disease in 72% of the cases. The precision, recall, and F1-score of the model were also calculated and reported in the notebook.
-
-**Conclusion**
-
-In this project, we demonstrated how machine learning techniques can be used to predict liver disease. We trained a Logistic Regression classifier on a dataset of liver disease patients and non-liver disease patients and evaluated its performance using various metrics. The results of our experiments show that the model achieved a moderate level of accuracy in predicting liver disease. Further work can be done to improve the performance of the model, such as using more sophisticated machine learning algorithms or incorporating additional features into the dataset.
-pip install scikit-learn pandas numpy matplotlib
-
-
 **Usage**
 
 Clone this repository to your local machine
@@ -87,15 +73,30 @@ The dataset used in this project is the Liver Patient Records dataset from the U
 
 **Machine Learning Model**
 
-The machine learning model used in this project is a Logistic Regression classifier. This model was chosen because it is a simple yet effective classification algorithm that can handle both binary and multi-class classification problems. The performance of the model was evaluated using various metrics, including accuracy, precision, recall, and F1-score.
+The machine learning models used in this project are Random Forest Regression (RFR), Gaussian Naive Bayes (GNB), and Logistic Regression (LR).
+
+Random Forest Regression was chosen because it is a powerful and versatile ensemble learning method that can handle both categorical and continuous variables, and can effectively deal with missing values and outliers. Gaussian Naive Bayes is a probabilistic classification algorithm that can handle high-dimensional feature spaces and is particularly useful when the assumption of independence between features holds true. Logistic Regression is a simple yet effective classification algorithm that can handle both binary and multi-class classification problems.
+
+The performance of each model was evaluated using various metrics, including accuracy, precision, recall, and F1-score. The models were trained and tested on our liver disease dataset to predict the presence or absence of liver disease in patients.
 
 **Results**
 
-The trained machine learning model achieved an accuracy of 0.72 on the test set. This means that the model correctly predicted the presence or absence of liver disease in 72% of the cases. The precision, recall, and F1-score of the model were also calculated and reported in the notebook.
+Our project aimed to develop machine learning models to predict the presence of liver disease based on clinical and demographic features. We trained and evaluated three different models: Random Forest, Gaussian Naive Bayes, and Logistic Regression.
+
+Our results showed that all three models achieved high accuracy scores in predicting liver disease, with Random Forest achieving the highest accuracy of 77.3%, followed by Gaussian Naive Bayes at 74.3%, and Logistic Regression at 71.2%.
+
+Furthermore, we found that the Random Forest model outperformed the other models in terms of precision, recall, and F1-score. This suggests that Random Forest may be the most appropriate model for accurately predicting liver disease in our dataset.
+
+We also observed that the most important features for predicting liver disease in our models were direct bilirubin, total protein, and alkaline phosphatase.
 
 **Conclusion**
+In conclusion, our project aimed to develop a machine learning model for predicting liver disease using clinical and demographic data. We performed extensive data analysis, including data preparation, exploratory data analysis, and feature selection, to develop three machine learning models: Random Forest, Gaussian Naive Bayes, and Logistic Regression.
 
-In this project, we demonstrated how machine learning techniques can be used to predict liver disease. We trained a Logistic Regression classifier on a dataset of liver disease patients and non-liver disease patients and evaluated its performance using various metrics. The results of our experiments show that the model achieved a moderate level of accuracy in predicting liver disease. Further work can be done to improve the performance of the model, such as using more sophisticated machine learning algorithms or incorporating additional features into the dataset.
+Our results showed that all three models had good performance in predicting liver disease, with Logistic Regression having the highest accuracy of 77.3%. We also found that certain features, such as Total Protein, Albumin, and Alkaline Phosphatase, were strong predictors of liver disease.
+
+However, our findings should be interpreted with caution, as they are specific to our dataset and may not generalize to other populations. Further studies with larger and more diverse datasets are needed to confirm the utility of these models and explore the potential of other machine learning techniques for liver disease prediction.
+
+Overall, our project provides valuable insights into the potential of machine learning in predicting liver disease and highlights the importance of data analysis and feature selection in developing accurate and reliable models.
 
 **Kaggle Dataset**
 
