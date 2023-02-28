@@ -1,9 +1,9 @@
-_**Liver Disease Prediction using Machine Learning**_
+# _**Liver Disease Prediction using Machine Learning**_
 
 
 This is a project that aims to predict liver disease using machine learning techniques. The dataset used in this project contains information about liver disease patients, including various clinical and demographic features. The goal is to train a machine learning model that can accurately predict whether a patient has liver disease or not.
 
-**Requirements**
+# **Requirements**
 
 To run this project, you will need the following:
 
@@ -26,31 +26,31 @@ Install the required Python packages by running the following command in the ter
 Liver Disease Prediction using Machine Learning
 This is a project that aims to predict liver disease using machine learning techniques. The dataset used in this project contains information about liver disease patients, including various clinical and demographic features. The goal is to train a machine learning model that can accurately predict whether a patient has liver disease or not.
 
-**Requirements**
+# **Requirements**
 
 To run this project, you will need the following:
 
-Python 3
-PySpark
-Jupyter Notebook
-Scikit-learn
-Pandas
-Numpy
-Matplotlib
+* Python 3
+* PySpark
+* Jupyter Notebook
+* Scikit-learn
+* Pandas
+* Numpy
+* Matplotlib
 Installation
-Install Python 3 from the official website
+* Install Python 3 from the official website
 
-Install PySpark by following the official installation guide
+* Install PySpark by following the official installation guide
 
-Install Jupyter Notebook by following the official installation guide
+* Install Jupyter Notebook by following the official installation guide
 
-Install the required Python packages by running the following command in the terminal:
+* Install the required Python packages by running the following command in the terminal:
 
-**Copy code**
-#pip install scikit-learn pandas numpy matplotlib#
+# **Copy code**
+* pip install scikit-learn pandas numpy matplotlib
 
 
-**Usage**
+# **Usage**
 
 Clone this repository to your local machine
 Open Jupyter Notebook and navigate to the cloned repository
@@ -59,19 +59,12 @@ Follow the instructions in the notebook to run the code and train the machine le
 Dataset
 The dataset used in this project is the Liver Patient Records dataset from the UCI Machine Learning Repository. This dataset contains records from 416 liver disease patients and 167 non-liver disease patients. The dataset includes various clinical and demographic features, such as age, gender, total bilirubin, direct bilirubin, albumin, and more.
 
-**Usage**
 
-Clone this repository to your local machine
-Open Jupyter Notebook and navigate to the cloned repository
-Open the LiverDiseasePrediction.ipynb notebook
-Follow the instructions in the notebook to run the code and train the machine learning model
-
-
-**Dataset**
+# **Dataset**
 
 The dataset used in this project is the Liver Patient Records dataset from the UCI Machine Learning Repository. This dataset contains records from 416 liver disease patients and 167 non-liver disease patients. The dataset includes various clinical and demographic features, such as age, gender, total bilirubin, direct bilirubin, albumin, and more.
 
-**Machine Learning Model**
+# **Machine Learning Model**
 
 The machine learning models used in this project are Random Forest Regression (RFR), Gaussian Naive Bayes (GNB), and Logistic Regression (LR).
 
@@ -79,7 +72,7 @@ Random Forest Regression was chosen because it is a powerful and versatile ensem
 
 The performance of each model was evaluated using various metrics, including accuracy, precision, recall, and F1-score. The models were trained and tested on our liver disease dataset to predict the presence or absence of liver disease in patients.
 
-**Results**
+# **Results**
 
 Our project aimed to develop machine learning models to predict the presence of liver disease based on clinical and demographic features. We trained and evaluated three different models: Random Forest, Gaussian Naive Bayes, and Logistic Regression.
 
@@ -89,7 +82,8 @@ Furthermore, we found that the Random Forest model outperformed the other models
 
 We also observed that the most important features for predicting liver disease in our models were direct bilirubin, total protein, and alkaline phosphatase.
 
-**Conclusion**
+# **Conclusion**
+
 In conclusion, our project aimed to develop a machine learning model for predicting liver disease using clinical and demographic data. We performed extensive data analysis, including data preparation, exploratory data analysis, and feature selection, to develop three machine learning models: Random Forest, Gaussian Naive Bayes, and Logistic Regression.
 
 Our results showed that all three models had good performance in predicting liver disease, with Logistic Regression having the highest accuracy of 77.3%. We also found that certain features, such as Total Protein, Albumin, and Alkaline Phosphatase, were strong predictors of liver disease.
@@ -98,12 +92,12 @@ However, our findings should be interpreted with caution, as they are specific t
 
 Overall, our project provides valuable insights into the potential of machine learning in predicting liver disease and highlights the importance of data analysis and feature selection in developing accurate and reliable models.
 
-**Kaggle Dataset**
+# **Kaggle Dataset**
 
 The Liver Patient Dataset used in this project was obtained from Kaggle. You can find the original dataset and more information about it on the following link:
 https://www.kaggle.com/uciml/indian-liver-patient-records
 
-**License**
+# **License**
 
 The Liver Patient Dataset is available under the following license:
 Database: Open Database, Contents: Database Contents, License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license, Link: https://creativecommons.org/licenses/by-sa/4.0/
