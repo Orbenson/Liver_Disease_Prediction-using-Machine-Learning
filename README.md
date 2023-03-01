@@ -74,13 +74,7 @@ The performance of each model was evaluated using various metrics, including acc
 
 # **Results**
 
-Our project aimed to develop machine learning models to predict the presence of liver disease based on clinical and demographic features. We trained and evaluated three different models: Random Forest, Gaussian Naive Bayes, and Logistic Regression.
-
-Our results showed that all three models achieved high accuracy scores in predicting liver disease, with Random Forest achieving the highest accuracy of 77.3%, followed by Gaussian Naive Bayes at 74.3%, and Logistic Regression at 71.2%.
-
-Furthermore, we found that the Random Forest model outperformed the other models in terms of precision, recall, and F1-score. This suggests that Random Forest may be the most appropriate model for accurately predicting liver disease in our dataset.
-
-We also observed that the most important features for predicting liver disease in our models were direct bilirubin, total protein, and alkaline phosphatase.
+In this paper, our goal was to predict the presence of liver disease with high accuracy. To achieve this, we examined the given features and found significant correlations among certain blood test features. We attempted to classify each feature using normal ranges found online to understand their relationship with the target value better. However, it is important to note that our findings are limited to our specific dataset and may not generalize to other populations or datasets. Therefore, further studies are needed to validate our findings and explore the potential of other machine-learning techniques for liver disease prediction. Furthermore, it is important to exercise caution when interpreting the results of any machine learning model, taking into account potential factors such as bias and variability in the data. We recommend future research be conducted in collaboration with medical professionals to ensure accurate distribution and interpretation of results.
 
 # **Conclusion**
 
