@@ -52,7 +52,7 @@ Machine learning techniques such as Random Forest Regression (RFR), Gaussian Nai
 
 # **Results**
 
-In this paper, our goal was to predict the presence of liver disease with high accuracy. To achieve this, we examined the given features and found significant correlations among certain blood test features. We attempted to classify each feature using normal ranges found online to understand their relationship with the target value better. However, it is important to note that our findings are limited to our specific dataset and may not generalize to other populations or datasets. Therefore, further studies are needed to validate our findings and explore the potential of other machine-learning techniques for liver disease prediction. Furthermore, it is important to exercise caution when interpreting the results of any machine learning model, taking into account potential factors such as bias and variability in the data. We recommend future research be conducted in collaboration with medical professionals to ensure accurate distribution and interpretation of results.
+In our liver disease prediction project, we evaluated three different machine learning models: logistic regression, random forest, and Gaussian Naive Bayes. Our goal was to select the best model for our specific problem, and we did so by choosing the model with the highest AUC and recall. This is particularly important because a false negative prediction for a sick patient can be costly, especially if the disease is contagious. As shown in Table 2 (Performance of machine learning models), the random forest algorithm achieved the highest AUC and recall scores.
 
 # **Conclusion**
 
