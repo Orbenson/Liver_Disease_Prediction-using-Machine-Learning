@@ -3,29 +3,6 @@
 
 The application of machine learning techniques in liver disease prediction has shown great promise in recent years. However, the development of accurate and reliable machine learning models requires comprehensive data about the disease and its progression, as well as high-quality EDA and feature classification. By reviewing the current state-of-the-art machine-learning techniques for liver disease prediction, this study aims to provide valuable insights that can inform the development of more effective and accurate machine-learning models for predicting liver disease and its progression.
 
-# **Requirements**
-
-To run this project, you will need the following:
-
-Python 3
-PySpark
-Jupyter Notebook
-Scikit-learn
-Pandas
-Numpy
-Matplotlib
-Installation
-Install Python 3 from the official website
-
-Install PySpark by following the official installation guide
-
-Install Jupyter Notebook by following the official installation guide
-
-Install the required Python packages by running the following command in the terminal:
-
-Liver Disease Prediction using Machine Learning
-This is a project that aims to predict liver disease using machine learning techniques. The dataset used in this project contains information about liver disease patients, including various clinical and demographic features. The goal is to train a machine learning model that can accurately predict whether a patient has liver disease or not.
-
 # **Kaggle Dataset**
 
 The Liver Patient Dataset used in this project was obtained from Kaggle. You can find the original dataset and more information about it on the following link:
