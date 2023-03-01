@@ -84,13 +84,13 @@ We also observed that the most important features for predicting liver disease i
 
 # **Conclusion**
 
-In conclusion, our project aimed to develop a machine learning model for predicting liver disease using clinical and demographic data. We performed extensive data analysis, including data preparation, exploratory data analysis, and feature selection, to develop three machine learning models: Random Forest, Gaussian Naive Bayes, and Logistic Regression.
+In this study, we aimed to predict liver disease and its progression using machine learning models. Our analysis revealed that Random Forest had the highest performance in predicting liver disease.   
 
-Our results showed that all three models had good performance in predicting liver disease, with Logistic Regression having the highest accuracy of 77.3%. We also found that certain features, such as Total Protein, Albumin, and Alkaline Phosphatase, were strong predictors of liver disease.
+The importance of feature classification in machine learning was also highlighted in our study. We found that Total Bilirubin, Direct Bilirubin, Albumin, A/G Ratio, SGPT, SGOT, and Alkphos were important predictors for liver disease prediction. Interestingly, we did not find a significant impact of age and gender on liver disease prediction.
 
-However, our findings should be interpreted with caution, as they are specific to our dataset and may not generalize to other populations. Further studies with larger and more diverse datasets are needed to confirm the utility of these models and explore the potential of other machine learning techniques for liver disease prediction.
+Our work also emphasized the significance of correlation evaluation between the features, which helped us get an accurate model. Ends with the importance of using not only one evaluator to determine between the models (AUC) but also understanding the particular field of the problem we are aiming to solve and another potential evaluator, such as recall which we also aimed to maximize.
 
-Overall, our project provides valuable insights into the potential of machine learning in predicting liver disease and highlights the importance of data analysis and feature selection in developing accurate and reliable models.
+Overall, our study demonstrated the potential of machine learning models for predicting liver disease and provided insights into the important features of this task. Our work also highlighted the need for further research in this area and the importance of evaluating model performance in healthcare applications.
 
 # **Kaggle Dataset**
 
