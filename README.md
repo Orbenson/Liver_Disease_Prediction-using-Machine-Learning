@@ -62,7 +62,7 @@ The dataset used in this project is the Liver Patient Records dataset from the U
 
 # **Dataset**
 
-The dataset used in this project is the Liver Patient Records dataset from the UCI Machine Learning Repository. This dataset contains records from 416 liver disease patients and 167 non-liver disease patients. The dataset includes various clinical and demographic features, such as age, gender, total bilirubin, direct bilirubin, albumin, and more.
+The Liver Patient Dataset contains 20,000 training data and approximately 1,000 test data, with 10 variables including age, gender, total bilirubin, direct bilirubin, total proteins, albumin, A/G ratio, SGPT, SGOT, and alkphos. The dataset also includes a selector field used to split the data into two sets: labeled by the experts as 1 for Liver Patient and 2 for Mon Liver Patient. The dataset was obtained from an unknown source during an unknown time period. We would like to thank the Kaggle dataset community for inspiration. The dataset inspires us to predict liver patients, and we hope to contribute to the largest data science community with our findings.
 
 # **Machine Learning Model**
 
