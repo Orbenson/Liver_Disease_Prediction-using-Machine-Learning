@@ -5,7 +5,8 @@ The application of machine learning techniques in liver disease prediction has s
 
 # **Kaggle Dataset**
 
-The Liver Patient Dataset used in this project was obtained from Kaggle. You can find the original dataset and more information about it on the following link:
+The Liver Patient Dataset used in this project was obtained from Kaggle. You can find the original dataset (Liver Patient Dataset (LPD)_train.csv}.
+More information about it on the following link:
 https://www.kaggle.com/datasets/abhi8923shriv/liver-disease-patient-dataset
 
 # **Requirements**
