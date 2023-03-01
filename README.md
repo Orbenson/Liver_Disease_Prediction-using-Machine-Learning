@@ -42,14 +42,12 @@ To run this project, you will need the following:
 * Pandas
 * Numpy
 * Matplotlib
-Installation
-* Install Python 3 from the official website
+Installation:
 
-* Install PySpark by following the official installation guide
-
-* Install Jupyter Notebook by following the official installation guide
-
-* Install the required Python packages by running the following command in the terminal:
+- Install Python 3 from the official website
+- Install PySpark by following the official installation guide
+- Install Jupyter Notebook by following the official installation guide
+- Install the required Python packages by running the following command in the terminal:
 
 # **Copy code**
 * pip install scikit-learn pandas numpy matplotlib PySpark 
