@@ -52,12 +52,14 @@ Installation
 
 # **Usage**
 
-Clone this repository to your local machine
-Open Jupyter Notebook and navigate to the cloned repository
-Open the LiverDiseasePrediction.ipynb notebook
-Follow the instructions in the notebook to run the code and train the machine learning model
-Dataset
-The dataset used in this project is the Liver Patient Records dataset from the UCI Machine Learning Repository. This dataset contains records from 416 liver disease patients and 167 non-liver disease patients. The dataset includes various clinical and demographic features, such as age, gender, total bilirubin, direct bilirubin, albumin, and more.
+To train the machine learning model for our liver disease prediction project, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Open Jupyter Notebook and navigate to the cloned repository.
+3. Open the LiverDiseasePrediction.ipynb notebook.
+4. Follow the instructions in the notebook to run the code and train the machine learning model.
+
+Our dataset includes records from both liver disease patients and non-liver disease patients. Specifically, it consists of 20,000 training data and ~1,000 test data points, with 10 variables such as age, gender, total bilirubin, direct bilirubin, albumin, and more. This dataset was used to predict liver disease using various machine learning techniques.
 
 
 # **Dataset**
