@@ -66,11 +66,7 @@ The Liver Patient Dataset contains 20,000 training data and approximately 1,000 
 
 # **Machine Learning Model**
 
-The machine learning models used in this project are Random Forest Regression (RFR), Gaussian Naive Bayes (GNB), and Logistic Regression (LR).
-
-Random Forest Regression was chosen because it is a powerful and versatile ensemble learning method that can handle both categorical and continuous variables, and can effectively deal with missing values and outliers. Gaussian Naive Bayes is a probabilistic classification algorithm that can handle high-dimensional feature spaces and is particularly useful when the assumption of independence between features holds true. Logistic Regression is a simple yet effective classification algorithm that can handle both binary and multi-class classification problems.
-
-The performance of each model was evaluated using various metrics, including accuracy, precision, recall, and F1-score. The models were trained and tested on our liver disease dataset to predict the presence or absence of liver disease in patients.
+Machine learning techniques such as Random Forest Regression (RFR), Gaussian Naive Bayes (GNB), and logistic regression (LR) have been used extensively in predicting liver disease. These supervised learning methods are capable of handling complex and high-dimensional data, which is often encountered in medical data with multiple features. In this literature review \cite{RFRLiverDiseasePrediction}, we will explore various machine learning techniques applied in different domains that are relevant to liver disease prediction.
 
 # **Results**
 
