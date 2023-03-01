@@ -26,6 +26,11 @@ Install the required Python packages by running the following command in the ter
 Liver Disease Prediction using Machine Learning
 This is a project that aims to predict liver disease using machine learning techniques. The dataset used in this project contains information about liver disease patients, including various clinical and demographic features. The goal is to train a machine learning model that can accurately predict whether a patient has liver disease or not.
 
+# **Kaggle Dataset**
+
+The Liver Patient Dataset used in this project was obtained from Kaggle. You can find the original dataset and more information about it on the following link:
+https://www.kaggle.com/datasets/abhi8923shriv/liver-disease-patient-dataset
+
 # **Requirements**
 
 To run this project, you will need the following:
@@ -84,10 +89,6 @@ Our work also emphasized the significance of correlation evaluation between the 
 
 Overall, our study demonstrated the potential of machine learning models for predicting liver disease and provided insights into the important features of this task. Our work also highlighted the need for further research in this area and the importance of evaluating model performance in healthcare applications.
 
-# **Kaggle Dataset**
-
-The Liver Patient Dataset used in this project was obtained from Kaggle. You can find the original dataset and more information about it on the following link:
-https://www.kaggle.com/datasets/abhi8923shriv/liver-disease-patient-dataset
 
 # **License**
 
